@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string nim, nama;
+    int nilai1, nilai2,nilai3, total;
+    cout << "Masukan Nim : ";
+    //cin >> nim;
+    getline(cin,nim);
+    cout << "Masukan nama : ";
+    cin >> nama;
+    cout << "nilai tugas 1 : ";
+    cin >> nilai1;
+    cout << "nilai tugas 2 : ";
+    cin >> nilai2;
+    cout << "nilai tugas 3 : ";
+    cin >> nilai3;
+    cout << "total : "<< (nilai1+nilai2+nilai3)<< "\n";
+ cout << "ratarata : "<< (nilai1+nilai2+nilai3)/3;
+    return 0;
+}
+
