@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string nama;
+    int nilai1, nilai2,nilai3,ratarata;
+    cout << "Masukan nama : ";
+    cin >> nama;
+    cout << "nilai 1 : ";
+    cin >> nilai1;
+    cout << "nilai 2 : ";
+    cin >> nilai2;
+    cout << "nilai 3 : ";
+    cin >> nilai3;
+    ratarata=(nilai1+nilai2+nilai3)/3;
+    cout << "ratarata : "<< ratarata <<"\n";
+    if (ratarata > 80)
+    cout << "dan menjadi juaraI dari hasil perlombaan yang diikuti";
+    else if (ratarata > 75)
+    cout << "dan menjadi juaraII dari hasil perlombaan yang diikuti";
+    else if (ratarata > 65)
+    cout << "dan menjadi juaraIII dari hasil perlombaan yang diikuti";
+else if (selain itu tidak juara)
+    cout << "selain itu tidak juara"
+    return 0;
+}
